@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="search-bar">
+            <input id="search-text" type="text" onfocus="this.placeholder=''" placeholder="Pokemon name...">
+            <button type="submit" id="btn-search"><img
+                    src="https://pixsector.com/cache/e7836840/av6584c34aabb39f00a10.png"></button>
+        </div>
+    </div>
+    <div class="pokedex">
+        <div class="pokedex-top">
+            <div class="button-confirma">
+                <h1>A</h1>
+            </div>
+            
+            <div class="poke-show">
+                <div class="poke-name">
+                </div>                
+                <div id="poke-images">
+                   
+                </div>
+
+            </div>
+            <div class="pokedex-buttons">
+                <div class="cell"></div>
+                <div class="cell box" >
+                    <div class="triangle"></div>
+                </div>
+                <div class="cell"></div>
+                    <button class="cell box" id ="btn-back">
+                        <div class="triangle-left"></div>
+                    </button>
+                <div class="cell box">
+                    <div class="circle"></div>
+                </div>
+                <button class="cell box" id ="btn-next" >
+                    <div class="triangle-right"></div>
+                </button>
+                <div class="cell"></div>
+                <div class="cell box">
+                    <div class="triangle-down"></div>
+                </div>
+                <div class="cell"></div>
+            </div>
+        </div>
+        <div class="pokedex-bottom">
+            <div class ="poke-type">
+                <div class ="one"></div>
+                <div class ="two"></div>
+            </div>
+            <div class="second-screen">    
+                <div class="poke-details ">
+                    
+                </div>
+
+            </div>
+        </div>
+    
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
